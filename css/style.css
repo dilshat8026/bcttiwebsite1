@@ -1,0 +1,222 @@
+*{margin:0px;padding:0px;}
+
+body{background-color:gray;}
+
+.main{width:960px;margin:auto;overflow:hidden;outline-style:solid;outline-color:green;}
+/*tope_name start*/
+.top_name {width:960px;background-color: #008733;overflow: hidden;margin:auto;}
+
+.left{float:left;width:700px;overflow:hidden;}
+.left h2{color:#fff;text-align:center;}
+
+.right{float:right;width:200px;}
+
+.right button{color:#fff;border:1px solid white; background-color:#008733; font-size:12px;margin-left:20px;padding:5px}
+.right button:hover{background-color:#220022;}
+/*Tope name end*/
+
+
+/*menu css start*/
+.menu{background-color:#006600;}
+.menu ul{list-style:none;}
+.menu ul li{float:left;border-right:1px solid #006633;border-left:1px solid #00666;position:relative;background-color:#008733;}
+.menu ul li:hover{background-color:#006600;}
+.menu ul li:last-child{border-right:0px solid white;}
+.menu ul li a{color:#fff;text-decoration:none;font-size:16px;display:block;width:105.66px;padding:10px 0px;text-align:center;}
+.menu ul li a:hover{}
+/*menu css start*/
+
+/*dropdown menu start*/
+.menu ul li ul{position:absolute;left:-99999px;}
+.menu ul li:hover ul{left:0px;}
+.menu ul li ul li{float:none;width:150px;}
+.menu ul li ul li a{display:block;}
+.menu ul li ul li a:hover{}
+
+/*dropdown menu end*/
+
+/*left content start*/
+.left_content{min-height:2000px;margin-top:15px;width:600px;float:left;background-color:white;margin-left:15px;overflow:hidden;}
+.left_content h2{text-align:center;background-color:#25006D;color:#fff;margin-top:20px;}
+.left_content p{text-align:justify;}
+/*left content end*/
+
+/*datetime part*/
+.date_time{overflow:hidden;width:600px;margin-bottom:20px;}
+.date_time img{width:200px;height:155px;float:left;margin-left:50px;margin-top:10px;padding:15px;}
+.date_time h1{float:left; margin-left:40px;margin-top:100px;width:220px;}
+.date_time h1 span{padding:20px; background-color:#008737;}
+/*datetime end*/
+
+
+
+/*...............................................................................................................................................................................................................................................rignt contente..........................................................*/
+
+/*right content end*/
+.right_content{margin-top:15px;width:310px;min-height:1967px;float:right;background-color:white;margin-right:15px;overflow:hidden;margin-left:15px;}
+/*right content end*/
+
+/*institute logo*/
+.institute_logo,.founder_logo{overflow:hidden;}
+.institute_logo h2 ,.founder_logo h2{width:220px;color:#fff;text-align:center;font-size: 15px;margin-left:40px;background-color: #008733;margin-bottom: 10px;margin-top: 10px;}
+.institute_logo img,.founder_logo img {width:180px;height:170px;margin-left: 50px;border:5px solid green;}
+.founder_logo h3{width: 220px;
+margin-left:45px;
+color: Green;
+font-size: 15px;
+text-align:center;
+overflow:hidden;
+}
+
+.principal{margin-top:15px;background-color:#008733;width:220px;margin-left:40px;overflow:hidden;}
+.principal a{text-align: center;color: #fff;text-decoration: none;margin-left: 50px;font-weight: bold;}
+
+.visitor{overflow:hidden;background-color:#008733;width:220px;margin-top:15px;margin-left:40px;}
+.visitor h3{text-align:center;color:#fff;margin-top:5px;font-size:12px;}
+.visitor p{color: gray;background-color: #fff;overflow: hidden;padding-top:5px;}
+
+.E_service{width:220px;margin-left:40px;margin-top:10px;background-color:#FFFF99;}
+.E_service h3{width:220px;background-color:#008733;text-align:center;color:#fff;}
+.E_service ul{list-style:none;}
+.E_service ul li{list-style:none;padding:5px 5px;text-decoration:none;}
+.E_service ul li img{float:clear;float:left;width:15px;height:auto;}
+.E_service ul li a{text-decoration:none;margin-left:5px;display:clear;margin-left:5px;color:black;}
+.E_service ul li a:hover{color:red;text-decoration:underline;}
+
+
+
+
+.page_link{width:220px;margin-left:40px;margin-top:10px;}
+.page_link h2{}
+.page_link iframe{width:220px;}
+
+.social_media{width:220px;margin-left:40px;margin-top:10px;}
+.social_media h2{width:220px;background-color:#008733;text-align:center;color:#fff;margin-bottom:15px;}
+.social_media a{}
+.social_media a img{margin-left:10px;}
+
+
+
+/*...............................................................................................................................................................................................................................................rignt contente..........................................................*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*notice board*/
+
+.notice_board{overflow:hidden;width:600px;height:220px;background-color:#E8E8FF;margin-top:15px;}
+.notice_board img{float:clear;float:left;}
+.notice_board h2{overflow:hidden;text-align:center;}
+.notice_board a{margin-left:120px;text-decoration:none;display:block;}
+
+.allnotice{background-color:green;overflow:hidden;margin-right:50px;float:right;}
+.allnotice a{color:white;overflow:hidden;padding-right:20px;}
+
+
+.latest_update{background-color:#E8E8FF;overflow:hidden;width:600px;height:100px;margin-top:20px;}
+.latest_update h2{text-align:center;}
+.latest_update marquee{float:left;overflow:hidden;}
+.latest_update a{}
+
+
+
+
+/*welcome css start*/
+.welcome{width:598px;background-color:#fff;border:1px solid green;min-height: 175px;margin-top:20px;}
+.welcome h3{background-color:green;padding-left:15px;color:#fff;}
+.welcome img{float:left;width:100px;height:100px;padding:15px;}
+.welcome p{text-align:justify;width:580px;}
+.welcome a{float:right;margin-right:20px;text-decoration:none;background-color:green;color:white;}
+
+
+/*contral css start*/
+
+.contral{width:600px;margin-top:15px;overflow:hidden;}
+
+/*first contral css start*/
+.first_contral{overflow:hidden; margin-top:30px;}
+
+.left_con{width:280px;float:left;overflow:hidden;background-color:#E8E8FF;overflow:hidden;min-height:180px;box-shadow: gray 3px 3px 3px 3px;margin-left:10px;min-height:180px;}
+.left_con h3{margin-left:10px; }
+.left_con img{width:95px;height:100px;margin-left:5px;float:left:}
+
+
+.list{float:clear;overflow:hidden;}
+.list li{}
+.list li a{color:gray;font-size: 13px;margin-right:5px;margin-right: 10px}
+
+.right_con{float:right;width:280px;overflow:hidden;background-color:#E8E8FF;min-height:180px;box-shadow: gray 3px 3px 3px 3px;margin-right:15px;min-height:180px;}
+.right_con h3{margin-left:10px;}
+.right_con img{width:95px;height:100px;margin-left:5px;float:left:}
+
+.list{float:right;overflow:hidden;}
+.list li{}
+.list li a{text-decoration:none;margin-bottom:10px;}
+.list li a:hover{text-decoration:underline;}
+/*first contral css end*/
+
+
+.youtue{margin-top:20px;margin-left:10px;width:575px;overflow:hidden;}
+.youtue h2{background-color:#008737;margin-left;10px;color:#fff;}
+.youtue iframe{}
+
+
+
+
+
+
+
+.communication{}
+
+.contract_left{float:left;background-color:white;width:585px;margin-left:15px;overflow:hidden;min-height:410px;margin-top:300px;}
+.contract_left h2{margin-left:15px;padding-top:15px;}
+.contract_left img{margin-left:15px;padding-top:15px;}
+.contract_left ul{margin-left:30px;}
+.contract_left ul li{padding:5px;}
+.contract_left ul li a{text-decoration:none;color:black;}
+
+
+.googlemap{float:right;background-color:#fff;width:345px;margin-right:15px;min-height:410px;}
+.googlemap h2{text-align:center;padding-bottom:10px;}
+.googlemap iframe{}
+
+
+.lowerpictrue{background-color:#fff;}
+.lowerpictrue img{margin-top:20px;}
+
+.footer{background-color:#fff;overflow:hidden;}
+
+.downmenu{width:450px;overflow:hidden;float:left;background-color:#fff;}
+.downmenu ul{}
+.downmenu ul li{float:left;padding:15px;border-right:1px dotted gray;list-style:none;}
+.downmenu ul li a{color:#787878;text-decoration:none;}
+.downmenu ul li a:hover{text-decoration:underline;color:#220022;}
+
+.authority{overflow:hidden;float:left;width:660px;margin-left:20px;background-color:#fff;}
+.authority p{margin-top:20px;color:color:#787878;}
+
+
+
+.search{float:right;width:460px;background-color:#fff;}
+.search input{border:1px solid red; width:450px; height:50px;}
+.search input[type=text] {width: 100%;box-sizing: border-box;border: 2px solid #ccc;border-radius: 4px;font-size: 16px;background-color:#787878;background-image: url("img/search.png");background-position: 10px 10px; background-repeat: no-repeat;padding: 12px 20px 12px 40px;}
+
+ p{margin-top:20px;color:#787878;}
+
+/*contral css end*/
+
+/*welcome message css code*/
